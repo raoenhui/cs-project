@@ -13,7 +13,7 @@ export const setVisibility = (filter) => {
         filter
     }
 }
-export const toggltTodo = (id) => {
+export const toggleTodo = (id) => {
     return {
         type: 'TOGGLR_TODO',
         id
